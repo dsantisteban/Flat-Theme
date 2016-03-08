@@ -1,0 +1,24 @@
+.bg-green {
+    background: #2ECC71;
+}
+.pd-50{
+    padding:40px 0px 50px;
+}
+.pdb-60{
+    padding-bottom: 60px;
+}
+.mg-0{
+    margin:0;
+}
+.text-white{
+	color:white;
+}
+/*Common*/
+body{
+	font-size: 14.5px;
+	font-weight: lighter;
+	background-color: #F5F5F5;
+}
+a:hover{
+	text-decoration: none;
+}

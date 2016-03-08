@@ -1,0 +1,38 @@
+body{
+	font-size: 14.5px;
+	font-weight: lighter;
+	background-color: #F5F5F5;
+}
+a{
+	color:#FFFFFF;
+}
+section.one ul{
+	margin-top: 33px;
+}
+.progress{
+	height: 30px;
+	background: white;
+	box-shadow: none;
+}
+section.two .progress p{
+	margin:8px 0px;
+}
+section.three div img{
+	border:5px solid white;
+}
+section.three div.col-md-3 small{
+	color:#A0998E;
+}
+section.three div.col-md-3 p:last-child{
+	margin-top: 10px;
+}
+section.three div.col-md-3 div{
+	display: inline-block;
+	height: 38px;
+	width: 38px;
+	padding: 10px;
+}
+.btn-lkn{
+	background-color: #4A9EC9;
+	color:white;
+}

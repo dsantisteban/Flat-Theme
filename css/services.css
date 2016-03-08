@@ -1,0 +1,18 @@
+section.one ul{
+	margin-top: 33px;
+}
+section.two div.col-md-4 i{
+	font-size: 30px;
+	
+}
+.img-circle{
+	background-color: #9A9388;
+	height: 70px;
+	width: 70px;
+	padding: 20px 22.5px;
+
+}
+.media>.pull-left{
+	margin-right: 20px;
+}
+
