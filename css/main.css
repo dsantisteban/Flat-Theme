@@ -13,3 +13,71 @@
 .clearfix:after {
   clear: both;
 }
+.item{
+	background-size: cover;
+	width: 100%;
+}
+.carousel-caption {
+	text-align: left;
+	left: 10%;
+  	bottom: 200px;
+}
+.carousel-caption h3{
+	font-size: 34px;
+}
+.carousel-caption p{
+	font-size: 11px;
+}
+.carousel-control .icon-prev,
+.carousel-control .glyphicon-chevron-left {
+  left: 30%;
+}
+.carousel-control .icon-next,
+.carousel-control .glyphicon-chevron-right {
+  right: 30%;
+}
+.pd{
+	padding:20% 0;
+}
+blockquote footer{
+	height: 30px;
+    padding-top: 5px;
+}
+.ico{
+	font-size: 30px;
+	height: 50px;
+	width: 50px;
+	background: #1C7A44;
+	color: white;
+	margin-top: 10px;
+	padding: 15% 33%;
+}
+.last{
+	padding:5% 0;
+}
+.our img{
+	padding: 10px;
+	background: white;
+}
+.foto{
+	width: 60px;
+}
+.caja{
+	padding: 5% 0;
+}
+.btn{
+	background: #E74C3C;
+}
+footer{
+	height: 60px;
+	padding-top: 25px;
+}
+.bajo a{
+	color: white;
+	text-decoration-style: none;
+	padding-left: 10px;
+}
+.bajo a i{
+	color: white;
+	font-size: 15px;
+}
