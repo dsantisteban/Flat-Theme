@@ -19,3 +19,28 @@
 .bg-white{
 	background: white;
 }
+header{
+	margin-top: 30px;
+}
+.foto{
+	width: 60px;
+}
+.caja{
+	padding: 5% 0;
+}
+.btn{
+	background: #E74C3C;
+}
+footer{
+	height: 60px;
+	padding-top: 25px;
+}
+.bajo a{
+	color: white;
+	text-decoration-style: none;
+	padding-left: 10px;
+}
+.bajo a i{
+	color: white;
+	font-size: 15px;
+}

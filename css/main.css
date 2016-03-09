@@ -15,7 +15,7 @@
 }
 .item{
 	background-size: cover;
-	width: 100%;
+	width: 100%; 
 }
 .carousel-caption {
 	text-align: left;
@@ -24,6 +24,9 @@
 }
 .carousel-caption h3{
 	font-size: 34px;
+}
+.carousel-control{
+	height: 577px;
 }
 .carousel-caption p{
 	font-size: 11px;
@@ -59,25 +62,8 @@ blockquote footer{
 	padding: 10px;
 	background: white;
 }
-.foto{
-	width: 60px;
+@media screen and (max-width: 700px){
+	.item{
+		height: 10px;
 }
-.caja{
-	padding: 5% 0;
-}
-.btn{
-	background: #E74C3C;
-}
-footer{
-	height: 60px;
-	padding-top: 25px;
-}
-.bajo a{
-	color: white;
-	text-decoration-style: none;
-	padding-left: 10px;
-}
-.bajo a i{
-	color: white;
-	font-size: 15px;
 }
