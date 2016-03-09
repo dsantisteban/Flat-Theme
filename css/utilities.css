@@ -13,12 +13,21 @@
 .text-white{
 	color:white;
 }
+.mgt-33{
+	margin-top: 33px;
+}
+.pdb-25{
+	padding-bottom: 25px;
+}
 /*Common*/
 body{
-	font-size: 14.5px;
+	font-size: 14.9px;
 	font-weight: lighter;
 	background-color: #F5F5F5;
 }
 a:hover{
 	text-decoration: none;
+}
+.bg-white{
+	background: white;
 }
