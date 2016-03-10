@@ -58,4 +58,9 @@ blockquote footer{
 .foto{
 	width: 60px;
 }
+@media screen and (max-width: 768px){
+	section.bg-green .col-md-4  .media{
+	padding-bottom: 25px;
+}
 
+}
