@@ -17,18 +17,18 @@
 	background-size: cover;
 	width: 100%; 
 }
-.carousel-caption {
+.texto{
 	text-align: left;
 	left: 10%;
   	bottom: 200px;
 }
-.carousel-caption h3{
+.texto h3{
 	font-size: 34px;
 }
 .carousel-control{
 	height: 577px;
 }
-.carousel-caption p{
+.texto p{
 	font-size: 11px;
 }
 .carousel-control .icon-prev,
@@ -40,7 +40,7 @@
   right: 30%;
 }
 .pd{
-	padding:20% 0;
+	padding:14% 0;
 }
 blockquote footer{
 	height: 30px;
@@ -64,6 +64,20 @@ blockquote footer{
 }
 @media screen and (max-width: 700px){
 	.item{
-		height: 10px;
+		height: 200px;
 }
+	.carousel-control{
+		height: 250px;
+}
+	.carousel-inner>.item>a>img, .carousel-inner>.item>img, 
+	.img-responsive, .thumbnail a>img, .thumbnail>img{
+		height: 100%;
+	}
+	.our img{
+		width: 100%;
+		padding: 2px;
+}
+	.pd{
+		padding: 8px 0;
+	}
 }
