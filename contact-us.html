@@ -6,11 +6,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Contact Us | Flat Theme</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">    
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/common.css">
+     <link href="css/common.css" rel="stylesheet">
+    <link href="css/utilities.css" rel="stylesheet">
+       
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -22,8 +25,9 @@
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
 </head><!--/head-->
 <body>
-<header>
-        <nav id="menu" class="navbar navbar-inverse navbar-fixed-top">
+    <!-- Inserte código aqui -->
+    <header>
+        <nav id="menu" class="navbar navbar-inverse navbar-fixed-top bg-plomo">
           <div class="container">
             <div class="navbar-header">
                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
@@ -34,7 +38,7 @@
               <a href="index.html"><img src="images/logo.png" class="navbar-brand"></img></a>
             </div>
             <div class="collapse navbar-collapse" id="collapse">
-              <ul class="nav navbar-nav navbar-right text-center">
+              <ul class="nav navbar-nav navbar-right text-center pdtb-10">
                 <li>
                   <a class="hvr-bounce-to-right" href="index.html">Home</a>
                 </li>
@@ -51,14 +55,66 @@
                   <a class="hvr-bounce-to-right" href="blog.html">Blog</a>
                 </li>
                 <li>
-                  <a class="hvr-bounce-to-right" href="contact-us.html" target="_blank">Contac</a>
+                  <a class="hvr-bounce-to-right" href="contact-us.html" target="_blank">Contact</a>
                 </li>
               </ul>
             </div>
           </div>
         </nav>
     </header>
-    <section class=" bg-plomo txt-white caja">
+    <section class="one bg-green txt-white mgt-71">
+        <div class="container">
+            <div class="row pd-50">
+                <div class="col-md-6">
+                    <h1 class="mg-0">Contact us</h1>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-unstyled list-inline text-right mgt-33">
+                        <li><a class="txt-white"href="index.html">Home</a></li>
+                        <li><a class="txt-white"href="">/</a></li>
+                        <li><a class="txt-white"href="contact-us.html">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pd-50 text-blue">
+        <div class="container">
+          <div class="row">
+              <div class="col-md-8">
+                  <h4>Contact Form</h4>
+                  <div class="status alert alert-success" style="display: none"></div>
+                  <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php" role="form">
+                      <div class="row">
+                          <div class="col-sm-5">
+                              <div class="form-group">
+                                  <input type="text" class="form-control" required="required" placeholder="First Name">
+                              </div>
+                              <div class="form-group">
+                                  <input type="text" class="form-control" required="required" placeholder="Last Name">
+                              </div>
+                              <div class="form-group">
+                                  <input type="text" class="form-control" required="required" placeholder="Email address">
+                              </div>
+                              <div class="form-group">
+                                  <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                              </div>
+                          </div>
+                          <div class="col-sm-7">
+                              <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Message"></textarea>
+                          </div>
+                      </div>
+                  </form>
+              </div>
+              <div class="col-md-4">
+                  <h4>Our Location</h4>
+                  <iframe width="100%" height="215" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.au/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Dhaka,+Dhaka+Division,+Bangladesh&amp;aq=0&amp;oq=dhaka+ban&amp;sll=40.714353,-74.005973&amp;sspn=0.836898,1.815491&amp;ie=UTF8&amp;hq=&amp;hnear=Dhaka+Division,+Bangladesh&amp;t=m&amp;ll=24.542126,90.293884&amp;spn=0.124922,0.411301&amp;z=8&amp;output=embed"></iframe>
+              </div>
+          </div>
+        </div>
+    </section>   
+    <section class=" bg-plomo txt-white pd-50">
       <div class="container">
         <div class="row">
           <div class="col-md-3">
@@ -76,7 +132,7 @@
               <li><i class="icon-angle-right"></i> Frequently Asked Question</li>
               <li><i class="icon-angle-right"></i> Contact Us</li>
               <li><i class="icon-angle-right"></i> Privacity policy</li>
-              <li<i class="icon-angle-right"></i> Terms of use </li>
+              <li><i class="icon-angle-right"></i> Terms of use </li>
               <li><i class="icon-angle-right"></i> Copyright</li>
             </ul>
           </div>
@@ -123,7 +179,7 @@
               <div class="input-group">
                 <input type="text" class="form-control" placeholder="Enter your email">
                 <span class="input-group-btn">
-                  <button class="btn btn-default" type="button">Go!</button>
+                  <button class="btn btn-danger" type="button">Go!</button>
                  </span>
                </div>
             </div>
@@ -141,13 +197,11 @@
             <a href="index.html">Home</a>
             <a href="about-us.html">About Us</a>
             <a href="contact-us.html">Contact Us </a>
-            <a href="#menu"><i class="icon-chevron-up"></i></a>
+            <a href=""><i class="icon-chevron-up"></i></a>
+          
         </div>
       </div>
-    </div>
     </footer>
-    <!-- Inserte código aqui -->
-
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.prettyPhoto.js"></script>

@@ -6,12 +6,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Home | Flat Theme</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">    
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/utilities.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -24,7 +25,7 @@
   </head>
   <body>
     <header>
-        <nav id="menu" class="navbar navbar-inverse navbar-fixed-top">
+        <nav id="menu" class="navbar navbar-inverse navbar-fixed-top bg-plomo">
           <div class="container">
             <div class="navbar-header">
                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
@@ -35,7 +36,7 @@
               <a href="index.html"><img src="images/logo.png" class="navbar-brand"></img></a>
             </div>
             <div class="collapse navbar-collapse" id="collapse">
-              <ul class="nav navbar-nav navbar-right text-center">
+              <ul class="nav navbar-nav navbar-right text-center pdtb-10">
                 <li>
                   <a class="hvr-bounce-to-right" href="index.html">Home</a>
                 </li>
@@ -52,7 +53,7 @@
                   <a class="hvr-bounce-to-right" href="blog.html">Blog</a>
                 </li>
                 <li>
-                  <a class="hvr-bounce-to-right" href="contact-us.html" target="_blank">Contac</a>
+                  <a class="hvr-bounce-to-right" href="contact-us.html" target="_blank">Contact</a>
                 </li>
               </ul>
             </div>
@@ -60,8 +61,7 @@
         </nav>
     </header>
     <section>
-      <div class="container-fluid">
-        <div class="row">
+      <div class="container-fluid pd-0 mgt-51">
         <br>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
@@ -76,7 +76,7 @@
 
           <div class="item active">
               <img src="images/slider/bg1.jpg" alt="tigre">
-            <div class="texto">
+            <div class="carousel-caption">
               <h3>Powerful and Responsive Design</h3>
               <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
             </div>
@@ -84,7 +84,7 @@
 
           <div class="item">
             <img src="images/slider/bg2.jpg" alt="Hamburger">
-            <div class="texto">
+            <div class="carousel-caption">
               <h3>Powerful and Responsive Design</h3>
               <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
             </div>
@@ -92,13 +92,13 @@
     
           <div class="item">
             <img src="images/slider/bg3.jpg" alt="Hamburger">
-            <div class="texto">
+            <div class="carousel-caption">
               <h3>Powerful and Responsive Design</h3>
               <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
             </div>
           </div>
         </div>
-      </div>
+
     <!-- Left and right controls -->
           <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -112,9 +112,9 @@
       </div>
     </section>
     <section class="bg-green">
-      <div class="container">
+      <div class="container pd-50">
           <div class="col-md-4">
-            <div class="media pd txt-white">
+            <div class="media txt-white">
               <div class="pull-left">
                 <a href="#">
                   <div class="media-object ico img-circle"><i class="icon-twitter"></i></div>
@@ -127,7 +127,7 @@
             </div>
           </div>
           <div class="col-md-4">
-          <div class="media pd  txt-white">
+          <div class="media  txt-white">
               <div class="pull-left">
                 <a href="#">
                   <div class="media-object ico img-circle"><i class="icon-facebook"></i></div>
@@ -140,7 +140,7 @@
             </div>
           </div>
           <div class="col-md-4">
-          <div class="media pd txt-white">
+          <div class="media txt-white">
               <div class="pull-left">
                 <a href="#">
                   <div class="media-object ico img-circle"><i class="icon-google-plus"></i></div>
@@ -155,7 +155,7 @@
         </div>
       </div>
     </section>
-    <section class="last bg-gray">
+    <section class="pd-50 bg-gray">
       <div class="container">
         <div class="row">
           <div class="col-md-3">
@@ -168,52 +168,49 @@
             </div>
             </div>
           </div>
-          <div class="col-md-3  col-xs-4 our">
-            <img src="images/portfolio/recent/item1.png">
-            <p class="text-left hidden-md hidden-lg "><b>Nova-Corpor...</b></p>
-          </div>
-          <div class="col-md-3  col-xs-4 our">
-            <img src="images/portfolio/recent/item2.png">
-            <p class="text-left hidden-md hidden-lg"><b>Fornax-Apps...</b></p>
+          <div class="col-md-3 col-xs-4 our">
+            <img class="img-responsive"src="images/portfolio/recent/item1.png">
           </div>
           <div class="col-md-3 col-xs-4 our">
-            <img src="images/portfolio/recent/item3.png">
-            <p class="text-left hidden-md hidden-lg"><b>Flat Theme...</b></p>
+            <img class="img-responsive"src="images/portfolio/recent/item2.png">
+          </div>
+          <div class="col-md-3 col-xs-4 our">
+            <img class="img-responsive"src="images/portfolio/recent/item3.png">
           </div>
         </div>
       </div>
     </section>
     <section class="bg-orange client">
       <div class="container">
-        <div class="row">
-          <div class="text-center txt-white">
+        <div class="row pd-50">
+          <div class="text-center txt-white pdb-25">
             <h2>What our clients say</h2>
             <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
           </div>
           <div class="col-md-6 txt-white">
             <blockquote>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-              <footer class="txt-white">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+              <small  class="txt-white">Someone famous in <cite title="Source Title">Source Title</cite></small>
             </blockquote>
             <blockquote>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-              <footer class="txt-white">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+              <small  class="txt-white">Someone famous in <cite title="Source Title">Source Title</cite></small>
             </blockquote>
           </div>
           <div class="col-md-6 txt-white">
             <blockquote>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-              <footer class="txt-white">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+              <small  class="txt-white">Someone famous in <cite title="Source Title">Source Title</cite></small>
             </blockquote>
             <blockquote>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-              <footer class="txt-white">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+              <small  class="txt-white">Someone famous in <cite title="Source Title">Source Title</cite></small>
             </blockquote>
           </div>
         </div>
       </div>
     </section>
-    <section class=" bg-plomo txt-white caja">
+    <section class=" bg-plomo txt-white pd-50">
       <div class="container">
         <div class="row">
           <div class="col-md-3">
@@ -231,7 +228,7 @@
               <li><i class="icon-angle-right"></i> Frequently Asked Question</li>
               <li><i class="icon-angle-right"></i> Contact Us</li>
               <li><i class="icon-angle-right"></i> Privacity policy</li>
-              <li<i class="icon-angle-right"></i> Terms of use </li>
+              <li><i class="icon-angle-right"></i> Terms of use </li>
               <li><i class="icon-angle-right"></i> Copyright</li>
             </ul>
           </div>
@@ -278,7 +275,7 @@
               <div class="input-group">
                 <input type="text" class="form-control" placeholder="Enter your email">
                 <span class="input-group-btn">
-                  <button class="btn btn-default" type="button">Go!</button>
+                  <button class="btn btn-danger" type="button">Go!</button>
                  </span>
                </div>
             </div>
@@ -296,10 +293,10 @@
             <a href="index.html">Home</a>
             <a href="about-us.html">About Us</a>
             <a href="contact-us.html">Contact Us </a>
-            <a href="index.html"><i class="icon-chevron-up"></i></a>
+            <a href=""><i class="icon-chevron-up"></i></a>
+          
         </div>
       </div>
-    </div>
     </footer>
     <!-- Inserte código aqui -->
 

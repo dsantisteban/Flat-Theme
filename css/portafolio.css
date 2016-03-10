@@ -1,7 +1,12 @@
 section.one ul{
 	margin-top: 33px;
 }
-.thumbnail {
+section.portafolio .thumbnail {
 	border:none;
 	padding: 10px;
+}
+section.portafolio .caption{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }

@@ -1,50 +1,46 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
 
 .clearfix {
-  *zoom: 1;
+	*zoom: 1;
 }
-
 .clearfix:before,
 .clearfix:after {
-  display: table;
-  content: "";
-  line-height: 0;
+	display: table;
+	content: "";
+	line-height: 0;
 }
 .clearfix:after {
-  clear: both;
+	clear: both;
 }
 .item{
 	background-size: cover;
-	width: 100%; 
+	width: 100%;
 }
-.texto{
+.carousel-caption {
 	text-align: left;
 	left: 10%;
-  	bottom: 200px;
+	bottom: 200px;
 }
-.texto h3{
+.carousel-caption h3{
 	font-size: 34px;
 }
-.carousel-control{
-	height: 577px;
-}
-.texto p{
-	font-size: 11px;
+.carousel-caption p{
+	font-size: 13px;
 }
 .carousel-control .icon-prev,
 .carousel-control .glyphicon-chevron-left {
-  left: 30%;
+	left: 30%;
 }
 .carousel-control .icon-next,
 .carousel-control .glyphicon-chevron-right {
-  right: 30%;
+	right: 30%;
 }
 .pd{
-	padding:14% 0;
+	padding:20% 0;
 }
 blockquote footer{
 	height: 30px;
-    padding-top: 5px;
+	padding-top: 5px;
 }
 .ico{
 	font-size: 30px;
@@ -55,33 +51,11 @@ blockquote footer{
 	margin-top: 10px;
 	padding: 15% 33%;
 }
-.last{
-	padding:5% 0;
-}
 .our img{
 	padding: 10px;
 	background: white;
 }
-@media screen and (max-width: 700px){
-	.item{
-		height: 200px;
+.foto{
+	width: 60px;
 }
-	.carousel-control{
-		height: 250px;
-}
-	.carousel-inner>.item>a>img, .carousel-inner>.item>img, 
-	.img-responsive, .thumbnail a>img, .thumbnail>img{
-		height: 100%;
-	}
-	.our{
-		background: white;
-		padding: 2px;
-	}
-	.our img{
-		width: 100%;
-		margin-top: 10px;
-}
-	.pd{
-		padding: 8px 0;
-	}
-}
+

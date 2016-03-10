@@ -6,11 +6,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Blog | Flat Theme</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">    
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link href="css/blog-item.css" rel="stylesheet">
+     <link href="css/common.css" rel="stylesheet">
+    <link href="css/utilities.css" rel="stylesheet">   
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -24,7 +26,7 @@
   <body>
     <!-- Inserte código aqui -->
     <header>
-        <nav id="menu" class="navbar navbar-inverse navbar-fixed-top">
+        <nav id="menu" class="navbar navbar-inverse navbar-fixed-top bg-plomo">
           <div class="container">
             <div class="navbar-header">
                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
@@ -35,7 +37,7 @@
               <a href="index.html"><img src="images/logo.png" class="navbar-brand"></img></a>
             </div>
             <div class="collapse navbar-collapse" id="collapse">
-              <ul class="nav navbar-nav navbar-right text-center">
+              <ul class="nav navbar-nav navbar-right text-center pdtb-10">
                 <li>
                   <a class="hvr-bounce-to-right" href="index.html">Home</a>
                 </li>
@@ -52,14 +54,233 @@
                   <a class="hvr-bounce-to-right" href="blog.html">Blog</a>
                 </li>
                 <li>
-                  <a class="hvr-bounce-to-right" href="contact-us.html" target="_blank">Contac</a>
+                  <a class="hvr-bounce-to-right" href="contact-us.html" target="_blank">Contact</a>
                 </li>
               </ul>
             </div>
           </div>
         </nav>
     </header>
-    <section class=" bg-plomo txt-white caja">
+    <section class="one bg-green txt-white mgt-71">
+        <div class="container">
+            <div class="row pd-50">
+                <div class="col-md-6">
+                    <h1 class="mg-0">Blog Item</h1>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-unstyled list-inline text-right mgt-33">
+                        <li><a class="txt-white"href="index.html">Home</a></li>
+                        <li><a class="txt-white"href="">/</a></li>
+                        <li><a class="txt-white"href="">Pages</a></li>
+                        <li><a class="txt-white"href="">/</a></li>
+                        <li><a class="txt-white"href="blog-item.html">Blog Item</a></li>                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <section class="contenidoblog container">
+        <div class="row pd-50">
+                <div class="col-md-4 col-md-push-8">
+                    <div class="col-md-12">
+                        <form role="form" class="mgb-30">
+                            <div class="input-group">
+                                <input type="text" class="form-control" autocomplete="off" placeholder="Search">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-danger" type="button"><i class="icon-search"></i></button>
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6 col-xs-6">
+                        <img class="img-rounded img-responsive" src="images/ads/ad1.png">
+                    </div>
+                    <div class="col-md-6 col-xs-6">
+                        <img class="img-rounded img-responsive" src="images/ads/ad2.png">
+                    </div>
+                    <div class="col-md-6 col-xs-6">
+                        <p></p>
+                        <img class="img-rounded img-responsive" src="images/ads/ad3.png">
+                    </div>
+                    <div class="col-md-6 col-xs-6">
+                        <p></p>
+                        <img class="img-rounded img-responsive" src="images/ads/ad4.png">
+                    </div>
+                    <div class="col-md-12">
+                        <h3>Blog Categories</h3>
+                        <div class="col-md-6">
+                            <ul  class="list-unstyled">    
+                                <li>
+                                    <a href="#"><i class="icon-angle-right"></i>Development</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon-angle-right"></i>Design</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon-angle-right"></i>Updates</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon-angle-right"></i>Tutorial</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="icon-angle-right"></i>News</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="list-unstyled">    
+                                <li>
+                                    <a href=""><i class="icon-angle-right"></i>Joomla</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="icon-angle-right"></i>Wordpress</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="icon-angle-right"></i>Drupal</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="icon-angle-right"></i>Magento</a>
+                                </li>
+                                <li>
+                                    <a href=""><i class="icon-angle-right"></i>Bootstrap</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <h3>Tag Cloud</h3>
+                        <div class="btn-group-xs btn-block">
+                            <button class="btn btn-primary">CSS3</button>
+                            <button class="btn btn-primary">HTML5</button>
+                            <button class="btn btn-primary">WordPress</button>
+                            <button class="btn btn-primary">Joomla</button>
+                            <p></p>
+                            <button class="btn btn-primary">Drupal</button>
+                            <button class="btn btn-primary">Bootstrap</button>
+                            <button class="btn btn-primary">JQuery</button>
+                            <button class="btn btn-primary">Tutorial</button>
+                            <button class="btn btn-primary">Update</button>
+                        </div>
+                        <h3>Facebook Fanpage</h3>
+                    </div>
+                </div>      
+                <div class="col-sm-8 col-sm-pull-4">
+                    <div class="blog">
+                        <div class="blog-item bg-white img-rounded mgb-30">
+                            <img class="img-responsive img-rounded" src="images/blog/blog1.jpg" width="100%" alt="" />
+                            <div class="pd-20">
+                                <a href="blog-item.html"><h3>Duis sed odio sit amet nibh vulputate cursus</h3></a>
+                                <ul class="list-inline">   
+                                    <li>    
+                                        <a href="">
+                                            <h5>  
+                                                <small> 
+                                                    <i class="icon-user"></i>
+                                                    <span>John</span>
+                                                </small>
+                                            </h5>
+                                        </a>
+                                    </li> 
+                                    <li>     
+                                        <a href="">
+                                            <h5 class="list-inline">    
+                                                <small> 
+                                                    <i class="icon-folder-close-alt"></i>
+                                                    <span>Bootstrap</span>
+                                                </small>
+                                            </h5>
+                                        </a>
+                                    </li>
+                                    <li>   
+                                        <a href="">
+                                            <h5 class="list-inline">    
+                                                <small> 
+                                                    <i class="icon-calendar"></i>
+                                                    <span>Sept 16th, 2012</span>
+                                                </small>
+                                            </h5>
+                                        </a>
+                                    </li>
+                                    <li>    
+                                        <a href="">
+                                            <h5 class="list-inline">    
+                                                <small> 
+                                                    <i class="icon-comment"></i>
+                                                    <span>3 Comments</span>
+                                                </small>
+                                            </h5>
+                                        </a>  
+                                    </li>                                                                       
+                                </ul> 
+                                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                                <a class="btn btn-default" href="blog-item.html">Read More <i class="icon-angle-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="blog-item bg-white img-rounded">
+                            <img class="img-responsive img-rounded" src="images/blog/blog2.jpg" width="100%" alt="" />
+                            <div class="pd-20">
+                                <a href="blog-item.html"><h3>Conubia nostra per inceptos himenaeos</h3></a>
+                                <ul class="list-inline">   
+                                    <li>    
+                                        <a href="">
+                                            <h5>  
+                                                <small> 
+                                                    <i class="icon-user"></i>
+                                                    <span>John</span>
+                                                </small>
+                                            </h5>
+                                        </a>
+                                    </li> 
+                                    <li>     
+                                        <a href="">
+                                            <h5 class="list-inline">    
+                                                <small> 
+                                                    <i class="icon-folder-close-alt"></i>
+                                                    <span>Bootstrap</span>
+                                                </small>
+                                            </h5>
+                                        </a>
+                                    </li>
+                                    <li>   
+                                        <a href="">
+                                            <h5 class="list-inline">    
+                                                <small> 
+                                                    <i class="icon-calendar"></i>
+                                                    <span>Sept 16th, 2012</span>
+                                                </small>
+                                            </h5>
+                                        </a>
+                                    </li>
+                                    <li>    
+                                        <a href="">
+                                            <h5 class="list-inline">    
+                                                <small> 
+                                                    <i class="icon-comment"></i>
+                                                    <span>3 Comments</span>
+                                                </small>
+                                            </h5>
+                                        </a>  
+                                    </li>                                                                       
+                                </ul> 
+                                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                                <a class="btn btn-default" href="blog-item.html">Read More <i class="icon-angle-right"></i></a>
+                            </div>
+                        </div>
+                        <ul class="pagination pagination-lg">
+                            <li><a href="#"><i class="icon-angle-left"></i></a></li>
+                            <li class="active"><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#"><i class="icon-angle-right"></i></a></li>
+                        </ul><!--/.pagination-->
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section class=" bg-plomo txt-white pd-50">
       <div class="container">
         <div class="row">
           <div class="col-md-3">
@@ -77,7 +298,7 @@
               <li><i class="icon-angle-right"></i> Frequently Asked Question</li>
               <li><i class="icon-angle-right"></i> Contact Us</li>
               <li><i class="icon-angle-right"></i> Privacity policy</li>
-              <li<i class="icon-angle-right"></i> Terms of use </li>
+              <li><i class="icon-angle-right"></i> Terms of use </li>
               <li><i class="icon-angle-right"></i> Copyright</li>
             </ul>
           </div>
@@ -124,7 +345,7 @@
               <div class="input-group">
                 <input type="text" class="form-control" placeholder="Enter your email">
                 <span class="input-group-btn">
-                  <button class="btn btn-default" type="button">Go!</button>
+                  <button class="btn btn-danger" type="button">Go!</button>
                  </span>
                </div>
             </div>
@@ -142,10 +363,10 @@
             <a href="index.html">Home</a>
             <a href="about-us.html">About Us</a>
             <a href="contact-us.html">Contact Us </a>
-            <a href="#menu"><i class="icon-chevron-up"></i></a>
+            <a href=""><i class="icon-chevron-up"></i></a>
+          
         </div>
       </div>
-    </div>
     </footer>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
